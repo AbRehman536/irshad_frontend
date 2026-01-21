@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:irshad_frontend/floating_action_button.dart';
+import 'package:irshad_frontend/row_column.dart';
 
 import 'appBar.dart';
 
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: AppBarDemo(),
+      home: RowColumnDemo(),
     );
   }
 }
