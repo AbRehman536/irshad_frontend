@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:irshad_frontend/floating_action_button.dart';
+import 'package:irshad_frontend/gridview/gridView_builder.dart';
+import 'package:irshad_frontend/gridview/gridview_count.dart';
+import 'package:irshad_frontend/gridview/staggered_gridview.dart';
 import 'package:irshad_frontend/images.dart';
 import 'package:irshad_frontend/listtile.dart';
 import 'package:irshad_frontend/nested_row_column.dart';
@@ -40,7 +43,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PageViewDemo(),
+      home: StaggeredGridviewDemo(),
     );
   }
 }
